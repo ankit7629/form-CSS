@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+/* ================ form1================== */
+
+.column1 {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+
+.back1 {
+    margin: 115px 16px;
+    width: 95%;
+    height: 30vh;
+    border-radius: 10px;
+    border: 1px solid rgb(206, 203, 203);
+    border-bottom: none;
+}
+
+.box1 {
+    width: 95%;
+    height: 16px;
+    background-color: rgb(212, 212, 212);
+    margin: 17px;
+}
+
+.hrtag {
+    width: 100%;
+    margin: 0;
+    background-color: rgb(233, 233, 233);
+}
+
+.box2 {
+    width: 95%;
+    height: 16px;
+    background-color: rgb(233, 233, 233);
+    margin: 17px;
+}
+
+.box3 {
+    width: 95%;
+    height: 60px;
+    background-color: rgb(221, 219, 219);
+    margin: 17px;
+    margin-top: 40px;
+}
+
+.table1 {
+    margin: 100px;
+    width: 80%;
+    height: 580px;
+    background-color: white;
+    border-radius: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 5px 7px 0px rgb(199, 195, 195);    
+    position: absolute;
+    top: -90px;
+    left: -36px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.head1 {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(248, 29, 84);
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information1 {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#wrong {
+    color: rgb(248, 5, 5);
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+
+
+/* =========== element same in both form========== */
+
+.fa-sharp {
+    margin-right: 10px;
+}
+
+hr {
+    margin: 15px;
+    width: 200px;
+}
+
+input {
+    background-color: rgb(224, 222, 222);
+    border: none;
+    padding: 3px;
+}
+
+button {
+    background-color: rgb(255, 8, 0);
+    color: white;
+    padding: 7px;
+    margin-top: 5px;
+    border: none;
+}
+
+select {
+    background-color: rgb(224, 222, 222);
+    padding: 3px;
+    border: none;
+}
+
+
+#circle-red {
+    color: red;
+    margin: 10px 4px 0px 10px;
+}
+
+#circle-yellow {
+    color: rgb(241, 163, 17);
+}
+
+#star {
+    color: red;
+    font-size: 10px;
+    position: relative;
+    top: -5px;
+}
+
+/* ================ form2================== */
+
+.column2 {
+    width: 50%;
+    background-color: rgb(241, 237, 237);
+    position: relative;
+}
+
+.back2 {
+    margin-left: 120px;
+    margin-top: 100px;
+    width: 50%;
+    height: 30vh;
+    border-radius: 10px;
+    border: 1px solid rgb(197, 195, 195);
+    border-bottom: none;
+
+}
+
+.box4 {
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(104, 101, 101);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box4-1 {
+    width: 290px;
+    height: 15px;
+    background-color: rgb(174, 205, 211);
+}
+
+.box4-2 {
+    width: 290px;
+    height: 15px;
+    background-color: orangered;
+}
+
+.table2 {
+    /* margin: 140px; */
+    width: 40%;
+    height: 580px;
+    background-color: white;
+    border-radius: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 5px 7px 0px rgb(199, 195, 195);
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.head2 {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(18, 184, 128);
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information2 {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#right {
+    color: rgb(24, 160, 24);
+    font-size: 40px;
+    align-self: center;
+}
+
